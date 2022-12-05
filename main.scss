@@ -1,0 +1,71 @@
+// sass --watch ./main.scss:./assets/css/main.css
+
+html {
+  background: url(../img/glass.jpg);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  .title {
+    a {
+      color: white;
+      text-decoration: underline red;
+      font-size: large;
+    }
+  }
+  .link {
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-size: xx-large;
+      &:hover {
+        text-decoration: underline red;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.front-page {
+  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+  }
+  .grid {
+    display: flex;
+    justify-content: center;
+    button {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 15px;
+      border: transparent;
+      height: 17vh;
+      width: 27vh;
+      font-size: xx-large;
+
+      &:hover {
+        border: 2px solid red;
+        transition: 0.4s;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .more {
+    display: flex;
+    justify-content: center;
+    .instructions {
+      color: white;
+      margin: 35px;
+      padding: 30px;
+      border-radius: 10% 30% 50% 70%;
+      border: 2px solid red;
+    }
+  }
+}
