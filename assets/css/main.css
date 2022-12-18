@@ -27,6 +27,7 @@ html {
   display: flex;
   justify-content: center; }
   .front-page .grid button {
+    text-align: center;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
@@ -35,6 +36,22 @@ html {
     width: 27vh;
     font-size: xx-large; }
     .front-page .grid button:hover {
+      border: 2px solid red;
+      transition: 0.4s;
+      background-color: transparent;
+      color: white;
+      cursor: pointer; }
+  .front-page .grid a {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: transparent;
+    height: 17vh;
+    width: 27vh;
+    font-size: xx-large;
+    color: white; }
+    .front-page .grid a:hover {
       border: 2px solid red;
       transition: 0.4s;
       background-color: transparent;

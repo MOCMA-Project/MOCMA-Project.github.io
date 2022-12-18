@@ -1,5 +1,5 @@
-const sourceButton = document.getElementById("sourceBtn");
+const mocmaNotesDownload = document.getElementById("notes");
 
-sourceButton.addEventListener("click", () => {
-  window.open("https://github.com/MOCMA-Project/mocma-browser");
+mocmaNotesDownload.addEventListener("click", () => {
+  window.open("./notes.html");
 });

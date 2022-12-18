@@ -40,6 +40,7 @@ html {
     display: flex;
     justify-content: center;
     button {
+      text-align: center;
       padding: 10px;
       margin: 10px;
       border-radius: 15px;
@@ -47,6 +48,25 @@ html {
       height: 17vh;
       width: 27vh;
       font-size: xx-large;
+
+      &:hover {
+        border: 2px solid red;
+        transition: 0.4s;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    a {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 15px;
+      border: transparent;
+      height: 17vh;
+      width: 27vh;
+      font-size: xx-large;
+      color: white;
 
       &:hover {
         border: 2px solid red;
